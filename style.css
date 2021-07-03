@@ -1,0 +1,131 @@
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: rgb(103 55 49);
+    color:black !important;
+    padding: 0 !important;
+
+}
+.navbar img {
+    height: 45px;
+}
+#home {
+    background: url(img/03.jpg) top center;
+    width:100%;
+    height: 100vh;
+    position:relative;
+    background-size:cover;
+}
+.overlay{
+    background:rgba(0,0,0,0.6);
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.home-container{
+    padding-top:100px;
+}
+#home h1{
+    font-size:48px;
+    font-weight:700;
+    line-height:56px;
+    text-transform:uppercase;
+    color:rgb(44, 171, 255);
+    margin:45px 0 10px 0;
+
+}
+#home h2 {
+    font-size: 41px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #b96969;
+    margin: 45px 0 10px 0;
+    letter-spacing: 5px;
+}
+.button{
+    text-transform:uppercase;
+    font-weight:500 !important;
+    font-size:15px;
+    display:inline-block;
+    padding:8px 28px;
+    display:inline-block;
+    border-radius:50px;
+    margin:30px;
+    transition:0.5s;
+    border:2px solid  black !important;
+    color:rgb(255, 255, 255) !important;
+    background-color: rgb(44, 171, 255) !important;
+  
+}
+.button:hover {
+    background-color: rgb(117, 58, 24) !important;
+    color:rgb(108, 177, 255) !important;
+    border:rgb(117, 58, 24) !important;
+}
+#about .icon{
+    width:64px;
+    height:64px;
+    display:flex;
+    justify-content: center;
+    border-radius: 50%;
+    border:2px solid rgb(89, 148, 1);
+    transition:0.25s;
+    align-items:center;
+    font-size:26px;
+    margin-top: 6px;
+ 
+}
+.media{
+    margin:14px;
+}
+.icon {
+    
+}
+#about .media:hover .icon{
+    background-color:rgb(89, 148, 1);
+    color:white !important;
+}
+
+#about .media:hover i{
+
+    color:white !important;
+}
+.worker{
+    width: 100%;
+    height: 100%;
+}
+#service .icon{
+    position: absolute;
+    width:64px;
+    height:64px;
+    display:flex;
+    justify-content: center;
+    border-radius: 50%;
+    border:2px solid rgb(89, 148, 1);
+    transition:0.25s;
+    align-items:center;
+    font-size:26px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(89, 148, 1);
+    top: -36px;
+    left: 40%;
+ 
+}
+#service .card:hover .icon{
+    background-color:rgb(89, 148, 1);
+    color:white !important;
+    border:2px solid rgb(89, 148, 1);
+}
+#team .social-icon i{
+    font-size:30px;
+    color:gray;
+}
+#team .social-icon i:hover{
+    color:rgb(89, 148, 1);
+}
+
+
+
